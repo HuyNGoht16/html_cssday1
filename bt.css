@@ -1,0 +1,100 @@
+html{
+	font-family: arial;
+}
+.banner img
+{
+	height: 300px;
+	width: 1800px;
+}
+.narbar 
+{
+	background-color: black;
+	height: 50px;
+}
+.narbar ul
+{
+	display: flex;
+	list-style-type: none;
+}
+.narbar ul li
+{
+	margin-left: 50px;
+	color: white;
+	margin-top: 14px;
+}
+.narbar ul li:hover{
+	color: orange;
+}
+.body
+{
+	display: flex;
+}
+.body .menu
+{
+	width:30% ;
+}
+.body .menu ul
+{
+	color: skyblue;
+}
+.right .logo img
+{
+	width: 900px;
+	height: 300px;
+}
+.product .item img
+{
+	width: 150px;
+	height: 300px;
+}
+.product
+{
+	display: flex;
+	background-color: lightgray;
+	padding: 10px 20px;
+}
+.product .item
+{
+	margin-left: 100px;
+	padding: 10px 10px ;
+}
+.product .item button
+{
+	background-color: orange;
+	color: white;
+	border: none;
+	height: 30px;
+	border-radius: 5px;
+}
+.product .item button:hover{
+	background-color: yellow;
+}
+.end
+{
+	background-color: white;
+	height: 50px;
+	float: right;
+}
+.end ul
+{
+	display: flex;
+	list-style-type: none;
+}
+.end ul li
+{
+	color: blue;
+	margin-left: 50px;
+	margin-top: 14px;
+}
+.vip{
+	margin: 20px 20px 20px 20px;
+}
+.item{
+	background-color: white;
+}
+.VND:hover{
+    background-color: blue;
+}
+.vnd:hover{
+	background-color: yellow;
+}
